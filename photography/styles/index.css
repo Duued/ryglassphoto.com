@@ -1,0 +1,111 @@
+@font-face{
+    font-family: whitney;
+    src: url(../../whitney-book.ttf)
+}
+
+body{
+    font-family: whitney;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.paragraph-card{
+    text-align: center;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+}
+
+.disclaimer-card{
+    text-align: center;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+a{
+    color: white;
+}
+
+
+button {
+    background-color: #0f0e50;
+    border-radius: 10pt;
+    border: none;
+    color: white;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Contact Section */
+.contact-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    .contact-section h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .contact-section {
+        padding: 10px;
+    }
+}

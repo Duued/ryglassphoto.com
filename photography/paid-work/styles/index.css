@@ -1,0 +1,28 @@
+@font-face {
+    font-family: dosis;
+    src: url(../../fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: dosis, Arial;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+.div-centered{
+    width: 75%;
+    margin: auto;
+}
+
+.div-centered table{
+    width: 100%;
+}
+
+.div-centered table tr td{
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 25px;
+}

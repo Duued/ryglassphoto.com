@@ -1,0 +1,28 @@
+header{
+    border-width: 5px;
+}
+
+.toolbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1em;
+}
+
+.toolbar a{
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table tr img{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
