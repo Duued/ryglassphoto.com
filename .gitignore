@@ -1,4 +1,4 @@
-*.gallery-images/*
+**/gallery-images/*
 *.exercise-images/*
 *.project-images/*
 *.images/*
