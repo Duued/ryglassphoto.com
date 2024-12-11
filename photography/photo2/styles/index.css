@@ -1,0 +1,30 @@
+@font-face{
+    font-family: whitney;
+    src: url(../../whitney-book.ttf)
+}
+
+body{
+    font-family: whitney;
+}
+
+h1{
+    text-align: center;
+}
+
+.paragraph-card{
+    text-align: center;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+}
+
+.disclaimer-card{
+    text-align: center;
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+    margin: auto;
+    width: 50%;
+}

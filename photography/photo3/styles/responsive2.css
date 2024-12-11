@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 10px;
+}
+
+.nav-list button {
+    padding: 10px 20px;
+}
+
+.div-centered {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bio, .projects {
+    max-width: 800px; /* Optional: set a max width for better readability */
+    text-align: center;
+}
+
+.project, .bio-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    min-width: 200px; /* Ensures boxes don't get too small */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    
+    .div-centered {
+        flex-direction: column;
+    }
+    
+    .project, .bio-content {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    td img{
+        max-width: 75px;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    min-width: 200px; /* Ensures boxes don't get too small */
+    text-align: center;
+}
+
+.exercise-container {
+    max-width: 1600px; /* Optional: set a max width for better readability */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    border: 1px solid #ccc; /* Optional: add some styling to images */
+    border-radius: 4px; /* Optional: add rounded corners */
+}
+
+.image-description {
+    margin-top: 20px;
+    text-align: left;
+}

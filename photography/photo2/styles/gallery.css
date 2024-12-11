@@ -1,0 +1,81 @@
+@font-face {
+    font-family: whitney;
+    src: url(../../whitney-book.ttf)
+}
+
+body {
+    font-family: whitney;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    text-align: center;
+}
+
+.paragraph-card {
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+}
+
+.disclaimer-card {
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border-color: white;
+    border: solid;
+    margin: auto;
+    width: 50%;
+}
+
+.photo-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.photo-table table {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+table {
+    margin: auto;
+    border-spacing: 75px;
+}
+
+
+td {
+    display: inline-block;
+    width: 375px;
+}
+
+th {
+    margin: auto;
+}
+
+
+
+a {
+    color: white;
+}
+
+
+@media (min-width: 750) {
+    body {
+        font-size: 1em;
+    }
+
+    td {
+        word-wrap: break-word;
+    }
+}

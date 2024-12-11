@@ -1,0 +1,22 @@
+@font-face {
+    font-family: dosis;
+    src: url(../../fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: dosis, Arial;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bio{
+    width: 450px;
+}
+
+.div-centered{
+    margin: auto;   
+    text-align: center;
+}
+
