@@ -4,3 +4,7 @@
 **/images/**
 **/edits/**
 *.lnk
+
+# Mac stuff
+.DS_Store
+._*
