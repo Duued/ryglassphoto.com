@@ -1,17 +1,20 @@
-ul li button{
+button{
     background-color: #0f0e50;
     border-radius: 10pt;
     border: none;
     color: white;
-    width: 150px;
-    height: 75px;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
     cursor: pointer;
 }
 
 button:hover{
     background-color: #476aca;
+}
+
+a{
+    text-decoration: none;
 }
